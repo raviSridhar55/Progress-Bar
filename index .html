@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="app.css" />
+    <title>Progress Bars</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="main-head">
+        Progress Bar
+      </h1>
+      <div class="progress-container">
+        <h4>HTML</h4>
+        <div class="progress">
+          <div class="status1"></div>
+        </div>
+      </div>
+      <div class="progress-container">
+        <h4>CSS</h4>
+        <div class="progress">
+          <div class="status2" onscroll="scrolling"></div>
+        </div>
+      </div>
+      <div class="progress-container">
+        <h4>JavaScript</h4>
+        <div class="progress">
+          <div class="status3"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.0.1/lib/anime.min.js"></script>
+  <script src="app.js"></script>
+</html>
